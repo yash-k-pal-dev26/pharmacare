@@ -1,0 +1,22 @@
+/* css/tables.css - Standardized Data Table Layouts */
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-action-btn {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.table-action-btn:hover {
+  background: var(--primary-light);
+  color: var(--primary-color);
+}
